@@ -1,0 +1,9 @@
+# Language detection overrides for GitHub
+*.sql linguist-detectable=true
+*.sql linguist-language=SQL
+
+# Ensure Python files are also properly detected
+*.py linguist-language=Python
+
+# Documentation files
+*.md linguist-documentation=true
